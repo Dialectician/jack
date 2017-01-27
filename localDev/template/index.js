@@ -30,5 +30,6 @@ var createScene = function () {
     // Our built-in 'ground' shape. Params: name, width, depth, subdivs, scene
     var ground = BABYLON.Mesh.CreateGround("ground1", 6, 6, 2, scene);
 
+
     return scene;
 };
